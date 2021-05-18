@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f3f3f3;
+    background-color: #f5d8d8;
 }
 
 .topbar {
@@ -34,13 +34,13 @@ body {
 }
 
 .wrapper .left {
-    width: 900%;
+    width: 2000%;
     background: linear-gradient(to right, #536fad, #089c9e);
     padding: 30px 25px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     text-align: center;
-    color: #fff;
+    color: rgb(152, 243, 205);
 }
 
 .wrapper .left img {
@@ -50,6 +50,12 @@ body {
 
 .wrapper .left .details h6 {
     text-align: left;
+}
+
+.wrapper .left .recent {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
 }
 
 .wrapper .left h4 {
@@ -77,7 +83,7 @@ body {
 }
 
 .wrapper .right {
-    width: 3000%;
+    width: 7000%;
     background: #fff;
     padding: 30px 25px;
     border-top-right-radius: 5px;
@@ -85,13 +91,11 @@ body {
 }
 
 .wrapper .right .info,
-.wrapper .right .projects,
 .wrapper .right .settings {
     margin-bottom: 25px;
 }
 
 .wrapper .right .info h3,
-.wrapper .right .projects h3,
 .wrapper .right .settings h3 {
     margin-bottom: 15px;
     padding-bottom: 5px;
@@ -102,20 +106,17 @@ body {
 }
 
 .wrapper .right .info_data,
-.wrapper .right .projects_data,
 .wrapper .right .settings_data {
     display: flex;
     justify-content: space-between;
 }
 
 .wrapper .right .info_data .data,
-.wrapper .right .projects_data .data,
 .wrapper .right .settings_data .data {
     width: 50%;
 }
 
 .wrapper .right .info_data .data h4,
-.wrapper .right .projects_data .data h4,
 .wrapper .right .settings_data .data h4 a {
     color: #353c4e;
     margin-bottom: 5px;
@@ -126,8 +127,7 @@ body {
     color: white;
 }
 
-.wrapper .right .info_data .data p,
-.wrapper .right .projects_data .data p {
+.wrapper .right .info_data .data p {
     font-size: 13px;
     margin-bottom: 10px;
     color: #919aa3;
@@ -137,18 +137,23 @@ body {
     display: flex;
 }
 
+.wrapper .right .picture h4 {
+    text-align: right;
+    color: rgb(179, 115, 41)
+}
+
 .wrapper .social_media ul li {
-    width: 45px;
-    height: 45px;
-    background: linear-gradient(to right, #01a9ac, #01dbdf);
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(to right, #9543ad, #a080c9);
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     text-align: center;
-    line-height: 45px;
+    line-height: 35px;
 }
 
 .wrapper .social_media ul li a {
     color: #fff;
     display: block;
-    font-size: 18px;
+    font-size: 15px;
 }
